@@ -41,7 +41,7 @@ module.exports = () => {
 				],
 			}),
 			new InjectManifest({
-				swSrc: './src-sw.js',
+				swSrc: './service-worker.js',
 				swDest: 'service-worker.js',
 			}),
 		],
